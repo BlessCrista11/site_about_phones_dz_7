@@ -1,0 +1,108 @@
+
+
+		h1,h2,h3 {text-align: center}
+		h2 {color: grey; font-weight: 800; font-size: 35px;}
+		h3 {font-weight: 800; font-size: 30px;}
+		p {padding: 5px 0}
+
+		.main {width: 1200px;
+		 margin: 0 auto;
+		  border: 5px solid red;
+		  background: silver;
+		position: relative;
+		text-align:center;
+	}
+		div { margin: 25px}
+		div div {border: solid yellow; padding: 0 5px;}
+
+		div div div {border: solid green; background: lime}
+
+
+		div div div>p {color: red}
+
+		div p {color: blue}
+
+		.simens_brand_name {color: #009999}
+		.samsung_brand_name {color: #004da3}
+		.nokia_brand_name {color: #1c4598}
+
+		.menu {
+			background: lime;
+			left: 0;
+			top:calc(50% - 300px);
+			/*margin:-150px 0 0 0;*/
+			width:300px;
+			
+			
+			position: fixed;
+			z-index: 5;
+			margin:auto 0;						
+		}
+
+
+.img{
+	display: inline-block;
+	position: relative;
+
+
+}
+
+/*.picture_description{
+			
+			
+			background-color: rgba(255, 255, 255, 0.5);
+
+			width: calc(100% - 25px);
+			height: 100px;
+			
+			
+			top: 50%;
+			margin-top: -50px;
+			margin-left: 0;
+			z-index: 5;
+			position: absolute;
+			text-align: justify;
+			
+}
+
+.img:hover .picture_description{
+	
+			
+			
+			display: none;
+			padding: 0;
+			
+			
+}*/
+
+
+.picture_description{
+			/*background-color:green;*/
+			padding: 0;
+			display: none;
+			
+			
+}
+
+.img:hover .picture_description{			
+			
+			
+			
+
+			background-color: rgba(255, 255, 255, 0.5);
+
+			width: calc(100% - 15px);
+			height: 100px;
+			
+			
+			top: 50%;
+			margin-top: -50px;
+			margin-left: 0;
+			z-index: 5;
+			position: absolute;
+			text-align: justify;
+			display: block;
+			
+			
+			
+}
